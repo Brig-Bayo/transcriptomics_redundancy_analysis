@@ -6,7 +6,6 @@ This module provides a complete pipeline that integrates all components
 for performing redundancy analysis on transcriptomics datasets.
 
 Author: Bright Boamah
-Date: 2024
 License: MIT
 """
 
