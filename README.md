@@ -369,7 +369,7 @@ visualizer = RDAVisualizer()
 # Ordination plot
 fig1 = visualizer.plot_ordination(
     analyzer.site_scores_,
-    title="RDA Ordination Plot - Bright Boamah",
+    title="RDA Ordination Plot",
     save_path="ordination_plot.png"
 )
 
@@ -380,7 +380,7 @@ fig2 = visualizer.plot_biplot(
     analyzer.biplot_scores_,
     feature_names=preprocessor.feature_names_,
     endpoint_names=preprocessor.endpoint_names_,
-    title="RDA Biplot - Bright Boamah",
+    title="RDA Biplot",
     save_path="biplot.png"
 )
 
@@ -389,7 +389,7 @@ fig3 = visualizer.plot_variance_explained(
     analyzer.eigenvalues_,
     analyzer.explained_variance_ratio_,
     analyzer.permutation_pvalues_,
-    title="Variance Explained - Bright Boamah",
+    title="Variance Explained",
     save_path="variance_explained.png"
 )
 ```
