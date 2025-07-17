@@ -6,7 +6,6 @@ This module implements redundancy analysis (RDA) for analyzing relationships
 between apical endpoints and RNA-seq gene expression data.
 
 Author: Bright Boamah
-Date: 2024
 License: MIT
 """
 
