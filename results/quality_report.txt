@@ -1,0 +1,28 @@
+============================================================
+TRANSCRIPTOMICS DATA QUALITY REPORT
+Author: Bright Boamah
+============================================================
+
+EXPRESSION DATA SUMMARY:
+  Shape: (18, 290)
+  Missing values: 0 (0.00%)
+  Negative values: 0
+  Zero values: 23
+  Mean expression: 241.546
+  Std expression: 85.319
+  Median expression: 83.453
+  Low variance features: 0
+  Highly correlated feature pairs: 149
+
+ENDPOINTS DATA SUMMARY:
+  Shape: (18, 5)
+  Missing values: 0 (0.00%)
+  Highly correlated endpoint pairs: 1
+
+RECOMMENDATIONS:
+- Consider log transformation if data is right-skewed
+- Remove or impute missing values before analysis
+- Consider removing low variance features
+- Check for batch effects if applicable
+- Validate highly correlated features/endpoints
+============================================================
