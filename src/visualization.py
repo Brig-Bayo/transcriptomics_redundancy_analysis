@@ -6,7 +6,6 @@ This module provides comprehensive visualization capabilities for redundancy
 analysis results, including ordination plots, biplots, and statistical summaries.
 
 Author: Bright Boamah
-Date: 2024
 License: MIT
 """
 
