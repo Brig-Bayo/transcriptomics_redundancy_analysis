@@ -1,5 +1,4 @@
-**Author:** Bright Boamah  
-**License:** MIT
+##Trancriptomic Redundancy Analysis
 
 This comprehensive user guide explains how to use the Transcriptomics Redundancy Analysis toolkit for analyzing relationships between apical endpoints and RNA-seq gene expression data.
 
