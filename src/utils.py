@@ -6,7 +6,6 @@ This module provides utility functions for data loading, saving, validation,
 and other common operations.
 
 Author: Bright Boamah
-Date: 2024
 License: MIT
 """
 
