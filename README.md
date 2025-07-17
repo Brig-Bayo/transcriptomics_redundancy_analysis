@@ -83,46 +83,7 @@ from src.redundancy_analysis import RedundancyAnalyzer
 from src.utils import create_example_data
 
 print("Installation successful!")
-print("Author: Bright Boamah")
 ```
-
----
-
-## Quick Start
-
-### 5-Minute Example
-
-```python
-from src.pipeline import TranscriptomicsPipeline
-from src.utils import create_example_data
-
-# 1. Create example data
-expression_data, endpoints_data = create_example_data(
-    n_samples=100, n_genes=1000, n_endpoints=5
-)
-
-# 2. Save data to files
-expression_data.to_csv('gene_expression.csv')
-endpoints_data.to_csv('apical_endpoints.csv')
-
-# 3. Run complete analysis
-pipeline = TranscriptomicsPipeline()
-results = pipeline.run_analysis(
-    expression_file='gene_expression.csv',
-    endpoints_file='apical_endpoints.csv',
-    output_dir='results/quick_start'
-)
-
-# 4. View results
-print(f"Total variance explained: {results['rda_results']['summary']['total_explained_variance']:.3f}")
-print(f"Significant axes: {results['rda_results']['summary']['significant_axes']}")
-```
-
-This example will:
-- Generate realistic example data
-- Perform complete redundancy analysis
-- Create visualizations and HTML report
-- Save all results to the `results/quick_start` directory
 
 ---
 
